@@ -1,1 +1,1 @@
-const channelName = getChannelName(channel);
+const fullName = name || 'buddy';

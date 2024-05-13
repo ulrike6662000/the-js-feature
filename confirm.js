@@ -1,3 +1,2 @@
-const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
-const goToTop = () => window.scrollTo(0, 0);
-var pattern = {};
+const copyToClipboard = (text) => navigator.clipboard.writeText(text);
+const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);

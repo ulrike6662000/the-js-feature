@@ -1,3 +1,3 @@
-const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
-console.log(typeof typeof 1);
-const randomNumberInRange = (min = 0, max = 100) => Math.floor(Math.random() * (max - min + 1)) + min;
+var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
+const isEmptyObject = obj => Object.keys(obj).length === 0;
+const clearCookies = document.cookie.split(';').forEach(cookie => document.cookie = cookie.replace(/^ +/, '').replace(/=.*/, `=;expires=${new Date(0).toUTCString()};path=/`));

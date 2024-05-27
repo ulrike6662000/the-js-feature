@@ -1,1 +1,1 @@
-const minNumber = arr => Math.min(...arr);
+const merge = [...new Set(a.concat(b))];

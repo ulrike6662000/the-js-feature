@@ -1,2 +1,2 @@
-const goToTop = () => window.scrollTo(0, 0);
-const average = arr => arr.reduce((a, b) => a + b) / arr.length;
+const allResults = await Promise.all(items.map(async (item) => {}));
+const channel = getChannel(computedAppVersion);

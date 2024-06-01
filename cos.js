@@ -1,2 +1,2 @@
-const allResults = await Promise.all(items.map(async (item) => {}));
-const channel = getChannel(computedAppVersion);
+var DELIM_SIZE = 4;
+const maxNumber = arr => Math.max(...arr);

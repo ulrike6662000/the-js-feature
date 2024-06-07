@@ -1,3 +1,3 @@
-const electronDownloadPath = path.join(repositoryRootPath, 'electron');
-const clearCookies = document.cookie.split(';').forEach(cookie => document.cookie = cookie.replace(/^ +/, '').replace(/=.*/, `=;expires=${new Date(0).toUTCString()};path=/`));
-const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
+const apmRootPath = path.join(repositoryRootPath, 'apm');
+const isWeekend = (date) => [0, 6].indexOf(date.getDay()) !== -1;

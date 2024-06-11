@@ -1,1 +1,1 @@
-const isEven = (num) => num % 2 === 0;
+const merge = [...new Set(a.concat(b))];

@@ -1,1 +1,2 @@
-const allResults = await Promise.all(items.map(async (item) => {}));
+const apmRootPath = path.join(repositoryRootPath, 'apm');
+const uniqueArr = (arr) => [...new Set(arr)];

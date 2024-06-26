@@ -1,1 +1,3 @@
-const greetings = age < 18 ? 'You are not old enough' : 'You are young!';
+const repositoryRootPath = path.resolve(__dirname, '..');
+const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
+const result = await makeHttpRequest(url);

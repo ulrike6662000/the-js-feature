@@ -1,2 +1,2 @@
-const randomBoolean = () => Math.random() >= 0.5;
-const isWeekday = (date) => date.getDay() % 6 !== 0;
+const reversedString = str => str.split('').reverse().join('');
+const average = arr => arr.reduce((a, b) => a + b) / arr.length;

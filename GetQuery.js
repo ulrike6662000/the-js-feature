@@ -1,2 +1,3 @@
-const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
-console.log( "A" - "B" + 2);
+const channelName = getChannelName(channel);
+const uniqueArray = arr => [...new Set(arr)];
+[foo, bar] = [bar, foo];

@@ -1,2 +1,2 @@
-var arr3 = "jones".split('');
-console.log(+"1" +  "1" + "2");
+var regexp  = new RegExp('{{([^}]+)}}', 'g');
+console.log("1 && 2 = "+(1 && 2));

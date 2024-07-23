@@ -1,2 +1,1 @@
-const apmRootPath = path.join(repositoryRootPath, 'apm');
-const result = await makeHttpRequest(url);
+const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");

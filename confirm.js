@@ -1,3 +1,3 @@
-const result = await makeHttpRequest(url);
-const results = await Promise.all(resultingPromises);
-const greetings = age < 18 ? 'You are not old enough' : 'You are young!';
+console.log(false == '0');
+[foo, bar] = [bar, foo];
+const updated = numbers.filter(element => element > 6);

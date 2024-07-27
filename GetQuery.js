@@ -1,2 +1,1 @@
-const isTabInView = () => !document.hidden;
-var arr1 = "john".split('');
+console.log(1 +  -"1" + "2");

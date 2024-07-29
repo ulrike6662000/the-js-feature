@@ -1,1 +1,1 @@
-const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
+const updated = numbers.filter(element => element > 6);

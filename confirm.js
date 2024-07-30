@@ -1,3 +1,2 @@
-console.log(false == '0');
-[foo, bar] = [bar, foo];
-const updated = numbers.filter(element => element > 6);
+var DELIM_SIZE = 4;
+var c = new Counter(); c.add(); c.add(); c.add();

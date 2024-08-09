@@ -1,2 +1,3 @@
-const symbolsPath = path.join(buildOutputPath, 'symbols');
-const results = await Promise.all(resultingPromises);
+var arr1 = "john".split('');
+var regexp  = new RegExp('{{([^}]+)}}', 'g');
+function myAPITS(someString: string, someNum: number) { ... };
